@@ -259,8 +259,6 @@ header {
 /* Story */
 
 .story {
-    width: 100%;
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -526,7 +524,12 @@ header {
     }
 
 
-
+    .story {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
 
     .story-container {
         display: flex;
