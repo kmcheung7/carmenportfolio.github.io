@@ -436,7 +436,7 @@ header {
     }
 
     .logo, .logo-year{
-        margin-top: 15px;
+        margin-top: 0px;
         padding: 0px;
         text-align: center;
     }
@@ -527,9 +527,6 @@ header {
 
 
 
-    .story {
-        width: 550px;
-    }
 
     .story-container {
         display: flex;
