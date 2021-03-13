@@ -518,7 +518,7 @@ header {
     }
 
     .hero-new {
-        width: 400px;
+        width: 380px;
         margin: auto;
         display: flex;
         flex-direction: column;
