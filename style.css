@@ -557,6 +557,11 @@ header {
         margin-top: 50px;
     }
 
+    .story h3 {
+        text-align: center;
+    }
+
+
     .story1, .story2, .story3, .story1-video {
         width: 350px;
         height: 460px;
@@ -583,6 +588,25 @@ header {
     .story-description {
         width: 300px;
         text-align: center;
+    }
+
+    .story1:hover {
+        transform: scale(1);
+        transition: 0s ease-in;
+        cursor: pointer;
+    }
+    
+    
+    .story2:hover {
+        transform: scale(1);
+        transition: 0s ease-in;
+        cursor: pointer;
+    }
+    
+    .story3:hover {
+        transform: scale(1);
+        transition: 0s ease-in;
+        cursor: pointer;
     }
 
 
