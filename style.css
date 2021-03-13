@@ -557,7 +557,7 @@ header {
         margin-top: 50px;
     }
 
-    .story h3 {
+    .story h5 {
         text-align: center;
     }
 
@@ -592,20 +592,20 @@ header {
 
     .story1:hover {
         transform: scale(1);
-        transition: 0s ease-in;
+        transition: 0s;
         cursor: pointer;
     }
     
     
     .story2:hover {
         transform: scale(1);
-        transition: 0s ease-in;
+        transition: 0s;
         cursor: pointer;
     }
     
     .story3:hover {
         transform: scale(1);
-        transition: 0s ease-in;
+        transition: 0s;
         cursor: pointer;
     }
 
