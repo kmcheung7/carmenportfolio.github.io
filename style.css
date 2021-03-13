@@ -45,19 +45,30 @@ header {
     padding-bottom: 30px;
 }
 
-.logo {
+/*logo {
     display: flex;
     flex-direction: row;
     padding-left: 20px;
     font-family: "Pacifico";
     font-size: 1.8rem;
-    background: #FEAC5E;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FEAC5E;  /* fallback for old browsers 
+    background: -webkit-linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+}
+*/
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+#logo-img {
+    width: 200px;
 }
 
 .logo-year {
@@ -433,8 +444,8 @@ header {
         background: whitesmoke;
     }
 
-    .logo {
-        font-family: Arial, Helvetica, sans-serif;
+    #logo-img {
+        padding-top: 30px;
     }
 
     .logo, .logo-year{
@@ -507,7 +518,7 @@ header {
     }
 
     .hero-new {
-        width: 600px;
+        width: 400px;
         margin: auto;
         display: flex;
         flex-direction: column;
