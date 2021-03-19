@@ -481,6 +481,10 @@ header {
         padding-top: 30px;
     }
 
+    #logo-p-img {
+        padding-top: 1px;
+    }
+
     .logo, .logo-year{
         margin-top: 0px;
         padding: 0px;
