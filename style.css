@@ -308,6 +308,7 @@ header {
     background-color: #C779D0;
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
+    text-align: center;
 }
 
 .story h4 {
@@ -470,7 +471,7 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 120px;
+        height: 150px;
         margin-top: 0px;
         padding: 10px 0px;
         background: whitesmoke;
@@ -501,7 +502,7 @@ header {
 
     .nav a {
         padding: 15px;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .nav.active {
@@ -510,7 +511,7 @@ header {
         top: 100%;
         width: 100%;
         opacity: 1;
-        height: 150px;
+        height: 250px;
         transition: height 1s ease;
         margin-top: 0px;
         padding-bottom: 20px;
@@ -563,7 +564,7 @@ header {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding-top: 120px;
+        padding-top: 180px;
     }
     
     #hero-new-img {
@@ -586,7 +587,7 @@ header {
     }
 
     .story h2 {
-        margin-top: 50px;
+        margin-top: 160px;
     }
 
     .story h5 {
@@ -597,6 +598,13 @@ header {
     .story1, .story2, .story3, .story1-video {
         width: 350px;
         height: 460px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .story1-mars, .story2-mars, .story3-mars {
+        width: 350px;
+        height: 360px;
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -641,15 +649,31 @@ header {
         cursor: pointer;
     }
 
+    .story-title {
+        margin-top: 10px;
+    }
+    
+    .story-description {
+        margin-top: 10px;
+    }
+
 
     .skills h2 {
-        margin-top: 50px;
+        margin-top: 160px;
     }
 
     .skills-img-container {
-        width: 100%;
+        width: 50%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .skills-tools {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        height: auto;
     }
 
     .skills-button {
@@ -672,7 +696,7 @@ header {
     .footer {
         width: 100%;
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         padding: 0px;
         margin-top: 30px;
         margin-bottom: 20px;
