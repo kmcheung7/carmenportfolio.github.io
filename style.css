@@ -101,10 +101,10 @@ header {
     transition: all 0.3s ease;
 }
 
-.highlight {
-    border-left: 3px solid #ffffff;
+/*.highlight {
+    border-left: 3px solid #7bc3c9
     padding-left: 10px;
-}
+}*/
 
 /* hero banner 
 
@@ -311,6 +311,16 @@ header {
     text-align: center;
 }
 
+.web h2 {
+    margin-top: 130px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    background-color: #C779D0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
 .story h4 {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -350,7 +360,7 @@ header {
     /* border: 1px solid black; */
 }
 
-.story1, .story2, .story3, .story1-video {
+.story1, .story2, .story3, .story1-video, .story1-web, .story2-web, .story3-web {
     padding-left: 20px;
     padding-right: 10px;
     /* border: 1px solid black; */
@@ -388,6 +398,24 @@ header {
     color: #4BC0C8;
 }
 
+.story-title a {
+    margin-top: 8px;
+    font-weight: bold;
+    text-align: center;
+    color: #4BC0C8;
+    text-decoration: none;
+}
+
+.story2-web img:hover{
+    /*border: 1px solid #FEAC5E;*/
+    box-shadow: 2px 2px 4px #ffc289;  
+}
+
+.story-title a:hover {
+    color: #FEAC5E;
+    text-decoration: none;
+}
+
 .story-description {
     width: 300px;
     margin: auto;
@@ -401,6 +429,7 @@ header {
     align-items: center;
     /* border: 1px solid black; */
 }
+
 
 /* recipes */
 
@@ -515,7 +544,7 @@ header {
         top: 100%;
         width: 100%;
         opacity: 1;
-        height: 250px;
+        height: 300px;
         transition: height 1s ease;
         margin-top: 0px;
         padding-bottom: 20px;
@@ -682,6 +711,10 @@ header {
 
     .skills-button {
         margin-bottom: 10px;
+    }
+    
+    .story1-web, .story3-web {
+        display: none;
     }
     
     .recipes h2 {
